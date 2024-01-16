@@ -1,0 +1,86 @@
+#root{
+    -fx-background-image: url("cashier.png");
+    -fx-background-repeat: no-repeat;
+}
+
+TextField{
+    -fx-font-size: 13px;
+    -fx-font-color:black;
+    -fx-font-weight:bold;
+}
+PasswordField{
+    -fx-font-size: 13px;
+    -fx-font-color:black;
+    -fx-font-weight:bold;
+
+}
+
+Button{
+    -fx-font-size:15px;
+    -fx-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight:bold;
+}
+CheckBox{
+    -fx-font-size:15px;
+    -fx-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight:bold;
+}
+
+#search{
+    -fx-background-image: url("search.png");
+}
+
+#column{
+    -fx-font-size: 18px;
+    -fx-alignment: CENTER;
+    -fx-font-weight:bold;
+    -fx-font-color:black;
+}
+
+#L{
+    -fx-font-size:35px;
+    -fx-font-weight:bold;
+}
+
+DatePicker{
+    -fx-font-size:15px;
+    -fx-font-weight:bold;
+}
+#next{
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0 0 -1 0, 0;
+    -fx-padding: 0.5em;
+    -fx-shape: "M 0 -3.5 v 7 l 4 -3.5 z";
+}
+#back{
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0 0 -1 0, 0;
+    -fx-padding: 0.5em;
+    -fx-shape: "M 0 -3.5 v 7 l 4 -3.5 z";
+}
+
+#next:hover{
+    -fx-background-color: black;
+}
+
+#back:hover{
+    -fx-background-color: black;
+}
+
+#login:hover{
+    -fx-background-color: black;
+    -fx-text-fill:white;
+}
+
+#de{
+    -fx-background-image: url(information.png);
+}
+
+#replace{
+        -fx-background-image: url(replace.jpg);
+}
+
+
+
